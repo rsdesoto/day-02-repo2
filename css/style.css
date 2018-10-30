@@ -1,0 +1,72 @@
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #efeee7;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #333333;
+}
+
+header{
+    background-color: #333333;
+}
+
+h1{
+    color: #eee;
+    font-size: 28px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+h2{
+    font-size: 24px;
+    margin: 20px;
+}
+
+.container{
+    width: 1024px;
+    margin: 0 auto;
+    padding-left: 5%;
+    line-height: 150%;
+}
+
+#main-bio{
+    float: left;
+    width: 65%;
+}
+
+#contact-bio{
+    float: left;
+    width: 25%;
+}
+
+#bio-image{
+    float: left;
+    margin: 20px;
+    width: 200px;
+}
+
+#nubbins-image{
+    float: left;
+    margin: 20px;
+    width: 200px;
+}
+
+a{
+    color: #d21034;
+}
+
+/*
+* Style specs:
+
+  * Adjust the line height so it is 1.5 times the size of the font.
+  * Make the link color `#d21034`.
+
+* If you forgot how to write the CSS properties, you can reference all CSS properties here <https://developer.mozilla.org/en-US/docs/Web/CSS/Reference>
+
+* Bonus:
+
+  * Stage, commit, and push this new file to Github.
+*/

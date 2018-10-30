@@ -4,31 +4,36 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Student Bio - Ry DeSoto</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-    <h1>Student Bio</h1>
+    <header>
+    <!-- a header: this IS a div, just a div named something special. This is mostly for accessibility/
+    ease of use -->
+        <h1>Student Bio</h1>
+    </header>
 
-    <section>
+    <section id="main-bio" class="container">
 
         <h2>Ry DeSoto</h2>
 
         <br>
         
         <!--- height is an attribute. source is an attribute. -->
-        <img height = 200px src="https://scontent-ort2-1.cdninstagram.com/vp/46b68a9eb4dd631d29a9f06d1cb4a5ef/5C6CE91D/t51.2885-15/e35/43646829_731111250577794_604271152011966901_n.jpg" alt="My Face">
+        <img id = "bio-image" src="https://scontent-ort2-1.cdninstagram.com/vp/46b68a9eb4dd631d29a9f06d1cb4a5ef/5C6CE91D/t51.2885-15/e35/43646829_731111250577794_604271152011966901_n.jpg" alt="My Face">
 
         <p>I grew up in Seattle and moved to Chicago for college. I live in Rogers Park, so the commute down here is a bit of a pain.</p>
         <p>I run (poorly), knit (somewhat less poorly), play tabletop games, and harass my dumb cat.</p>
 
-        <h4>A picture of Sgt. Nubbins McBeef:</h4>
-        <img  height = 200px src="https://scontent-ort2-1.cdninstagram.com/vp/f87bf2f29d9e5227b43d674c38d919f2/5C84211B/t51.2885-15/e35/43383489_268013730519837_5456936677154278202_n.jpg" alt="Nubbins">
+        <p>A picture of my roommate, Sgt. Nubbins McBeef, is included as well.</p>
+        
 
     </section>
 
-    <section>
+    <section id="contact-bio" class="container">
     
         <h2>Contact Info</h2>
 
@@ -37,6 +42,8 @@
             <li>Github: <a href="https://github.com/rsdesoto">rsdesoto</a></li>
             <li>Portfolio: <a href="#">Coming Soon</a></li>
         </ul>
+
+        <img id = "nubbins-image" src="https://scontent-ort2-1.cdninstagram.com/vp/f87bf2f29d9e5227b43d674c38d919f2/5C84211B/t51.2885-15/e35/43383489_268013730519837_5456936677154278202_n.jpg" alt="Nubbins">
 
     </section>
     
